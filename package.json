@@ -1,0 +1,17 @@
+{
+  "name": "my-what-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "what dev",
+    "build": "what build",
+    "start": "what start"
+  },
+  "dependencies": {
+    "what-framework": "^0.8.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
