@@ -6,9 +6,12 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "outDir": "dist",
-    "rootDir": "src",
-    "declaration": true
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "jsx": "preserve",
+    "jsxImportSource": "what-framework",
+    "types": ["vite/client"],
+    "isolatedModules": true,
+    "noEmit": true
   },
   "include": ["src"]
 }
